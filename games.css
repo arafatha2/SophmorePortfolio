@@ -93,3 +93,18 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+a {
+    color: blue; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+    padding: 5px 10px; /* Padding for better click area */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styles when hovering over a link */
+a:hover {
+    color: white; /* Change text color on hover */
+    background-color: blue; /* Change background color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
