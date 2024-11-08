@@ -1,62 +1,4 @@
-.navi {
-  background-color: #000000;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.navi a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.navi a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.navi a.active {
-  background-color: #34b3bc;
-  color: white;
-}
-.container {
-  position: relative;
-  width: 50%;
-}
-
-
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  background-color: #739dc4;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-.header{
-  background-color: #34b3bc;
-  text-align:center;
-  font-style:oblique;
-}
-p{
-  font-family: 'Freeman', sans-serif;
-  font-size: 1.5em;
-}
-
-
-
-
+/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -64,6 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header Styles */
 header {
     background: #333;
     color: #fff;
@@ -71,6 +14,35 @@ header {
     text-align: center;
 }
 
+/* Navigation Bar Styles */
+.navi {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navi a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navi a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navi a.active {
+    background-color: #34b3bc;
+    color: white;
+}
+
+/* Navigation List Styles */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -90,10 +62,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Link Hover Effects */
 nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Link Styles */
 a {
     color: blue; /* Link color */
     text-decoration: none; /* Remove underline */
@@ -107,4 +81,39 @@ a:hover {
     color: white; /* Change text color on hover */
     background-color: blue; /* Change background color on hover */
     cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Container Styles for Images */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+/* Text Styles */
+.text {
+    background-color: #739dc4;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/* Additional Header Styles */
+.header {
+    background-color: #34b3bc;
+    text-align: center;
+    font-style: oblique;
+}
+
+/* Paragraph Styles */
+p {
+    font-family: 'Freeman', sans-serif;
+    font-size: 1.5em;
 }
